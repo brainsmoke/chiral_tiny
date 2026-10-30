@@ -1,0 +1,1341 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "7ebbfc29-8a21-44b8-b3ef-819ecf896f98")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector:Conn_01x01_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LED:WS2812B-2020"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 5.08 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "WS2812B-2020"
+				(at 1.27 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+				(at 2.54 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RGB LED NeoPixel Nano addressable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*WS2812*-2020_PLCC4*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "WS2812B-2020_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "WS2812B-2020_0_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 5.08)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "WS2812B-2020_1_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 59.69 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17ef990a-df31-4e49-a784-a92a1e23ebb7")
+	)
+	(junction
+		(at 101.6 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5269e7d0-37cf-45c2-a021-c6babe5156d1")
+	)
+	(junction
+		(at 101.6 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d713dd67-7d58-400b-be9f-581bdb6cc3c4")
+	)
+	(wire
+		(pts
+			(xy 101.6 45.72) (xy 99.06 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27a84f8b-2acb-4125-b43e-5bc40e384d8b")
+	)
+	(wire
+		(pts
+			(xy 59.69 54.61) (xy 59.69 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36fa7657-ee6d-4d31-adb3-a2e837c643f8")
+	)
+	(wire
+		(pts
+			(xy 133.35 77.47) (xy 133.35 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43c79627-3389-4323-ab1f-0f9c4d0f6a8d")
+	)
+	(wire
+		(pts
+			(xy 77.47 63.5) (xy 93.98 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "441be264-bdc1-40e2-b2ad-07bb5acc63e8")
+	)
+	(wire
+		(pts
+			(xy 99.06 82.55) (xy 101.6 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44c673e4-9abd-4409-aa58-5cc5e8342a79")
+	)
+	(wire
+		(pts
+			(xy 101.6 50.8) (xy 69.85 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "453de9c6-8c29-4b30-98c3-26fff5252e1d")
+	)
+	(wire
+		(pts
+			(xy 57.15 67.31) (xy 59.69 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "523dc789-7ed0-4e39-84be-13d75095444b")
+	)
+	(wire
+		(pts
+			(xy 101.6 82.55) (xy 101.6 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "692f4b8d-07f1-466f-b401-96cf6d675da5")
+	)
+	(wire
+		(pts
+			(xy 59.69 63.5) (xy 62.23 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69903545-2680-4610-a554-1df9f79f15dd")
+	)
+	(wire
+		(pts
+			(xy 109.22 63.5) (xy 125.73 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c0b8b06-dc07-4f0c-adde-57984ff054ec")
+	)
+	(wire
+		(pts
+			(xy 59.69 46.99) (xy 55.88 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dfeacc8-20a8-496b-a005-3ffad681d94b")
+	)
+	(wire
+		(pts
+			(xy 69.85 77.47) (xy 101.6 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c314362-8b91-486c-a1f7-7cb578dafc07")
+	)
+	(wire
+		(pts
+			(xy 69.85 50.8) (xy 69.85 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99dc0dba-9d1d-49e4-a4ed-0f3c4d9c66de")
+	)
+	(wire
+		(pts
+			(xy 69.85 71.12) (xy 69.85 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0d6b6e9-98af-4209-bbc2-63b34ad4b4e5")
+	)
+	(wire
+		(pts
+			(xy 133.35 50.8) (xy 101.6 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2869935-507f-4082-b045-14240d4cdee3")
+	)
+	(wire
+		(pts
+			(xy 101.6 50.8) (xy 101.6 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c78b9970-eff1-44aa-932e-afb4bd674a77")
+	)
+	(wire
+		(pts
+			(xy 133.35 55.88) (xy 133.35 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cde4be0e-0dda-497a-aa4c-5961c12a2940")
+	)
+	(wire
+		(pts
+			(xy 59.69 67.31) (xy 59.69 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ceda6ed1-1ae8-41f7-9ca2-285b7efe05f2")
+	)
+	(wire
+		(pts
+			(xy 101.6 77.47) (xy 133.35 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd9db78e-8033-44d1-840f-64039299872f")
+	)
+	(wire
+		(pts
+			(xy 54.61 63.5) (xy 59.69 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df8bed57-e4f0-432e-bd98-249245b79f95")
+	)
+	(wire
+		(pts
+			(xy 101.6 45.72) (xy 101.6 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3c866ef-9c47-43a7-a367-155e636356cc")
+	)
+	(wire
+		(pts
+			(xy 101.6 71.12) (xy 101.6 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef8a91fd-a5ab-40da-9f23-2d7526fc9758")
+	)
+	(wire
+		(pts
+			(xy 54.61 54.61) (xy 59.69 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4800c3c-e66e-4abb-96cc-45d48147d3ab")
+	)
+	(hierarchical_label "IO_END"
+		(shape input)
+		(at 57.15 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "05363ffa-a393-423e-888a-db8a9f5fc5e7")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 99.06 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2feda2e6-9b18-4c8d-aef8-037a974b8635")
+	)
+	(hierarchical_label "IO_MID"
+		(shape input)
+		(at 55.88 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b4a6280d-4650-4f07-af84-5f7c79caafa5")
+	)
+	(hierarchical_label "VCC"
+		(shape input)
+		(at 99.06 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d47f1068-0cf0-4efb-846c-a51bcc7927ca")
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 69.85 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57d15a44-b374-45f6-8130-081120990855")
+		(property "Reference" "D1"
+			(at 83.82 57.0798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 83.82 59.6198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 71.12 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 72.39 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 69.85 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C55109522"
+			(at 69.85 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8d585d66-cd5c-44ae-99e7-0a8ce3695c04")
+		)
+		(pin "1"
+			(uuid "7e56e729-f95a-45b5-929f-ae69dfe2fdd8")
+		)
+		(pin "3"
+			(uuid "5832a78a-20fe-4985-81a2-828d4225aa84")
+		)
+		(pin "4"
+			(uuid "8b73fa38-7503-42f6-9457-ce2efc43ea58")
+		)
+		(instances
+			(project "tiny"
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/5dbab606-abf4-4e82-9cc1-707c67a0633f/0bf87932-804d-4a7a-af3a-2cd2f54e571c"
+					(reference "D28")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/5dbab606-abf4-4e82-9cc1-707c67a0633f/d3ddc81b-fd68-494c-bdeb-05675ff458c9"
+					(reference "D25")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/5e688890-8302-4ccb-8387-63418fbf395b/21503396-ea3a-40dc-b481-090c45d7ed46"
+					(reference "D10")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/5e688890-8302-4ccb-8387-63418fbf395b/f0191c65-5f7e-4168-9ce4-e2702e9a3d17"
+					(reference "D7")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/6d3dc230-968b-47c8-9d2b-2095e46317c4/21503396-ea3a-40dc-b481-090c45d7ed46"
+					(reference "D22")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/6d3dc230-968b-47c8-9d2b-2095e46317c4/f0191c65-5f7e-4168-9ce4-e2702e9a3d17"
+					(reference "D19")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/b2621ccc-6b95-497d-bab3-a4c64f740e19/21503396-ea3a-40dc-b481-090c45d7ed46"
+					(reference "D40")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/b2621ccc-6b95-497d-bab3-a4c64f740e19/f0191c65-5f7e-4168-9ce4-e2702e9a3d17"
+					(reference "D37")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/c7a4ad01-2380-4369-b5ec-1dc572d0c7af/21503396-ea3a-40dc-b481-090c45d7ed46"
+					(reference "D1")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/c7a4ad01-2380-4369-b5ec-1dc572d0c7af/f0191c65-5f7e-4168-9ce4-e2702e9a3d17"
+					(reference "D4")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/d453a0a0-37eb-42f0-aeec-dba26492a9a8/21503396-ea3a-40dc-b481-090c45d7ed46"
+					(reference "D34")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/d453a0a0-37eb-42f0-aeec-dba26492a9a8/f0191c65-5f7e-4168-9ce4-e2702e9a3d17"
+					(reference "D31")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/fd3a525b-3ede-48c3-a79c-a56f3ffe55c1/21503396-ea3a-40dc-b481-090c45d7ed46"
+					(reference "D16")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/fd3a525b-3ede-48c3-a79c-a56f3ffe55c1/f0191c65-5f7e-4168-9ce4-e2702e9a3d17"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 49.53 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "a38e6e4e-9f41-487c-ba36-e166db4e0012")
+		(property "Reference" "J2"
+			(at 50.165 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 50.165 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:th_pad"
+			(at 49.53 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 49.53 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 49.53 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d349161-09d4-4674-a1b7-036eb8fcc20e")
+		)
+		(instances
+			(project "tiny"
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/5dbab606-abf4-4e82-9cc1-707c67a0633f/0bf87932-804d-4a7a-af3a-2cd2f54e571c"
+					(reference "J20")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/5dbab606-abf4-4e82-9cc1-707c67a0633f/d3ddc81b-fd68-494c-bdeb-05675ff458c9"
+					(reference "J18")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/5e688890-8302-4ccb-8387-63418fbf395b/21503396-ea3a-40dc-b481-090c45d7ed46"
+					(reference "J8")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/5e688890-8302-4ccb-8387-63418fbf395b/f0191c65-5f7e-4168-9ce4-e2702e9a3d17"
+					(reference "J6")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/6d3dc230-968b-47c8-9d2b-2095e46317c4/21503396-ea3a-40dc-b481-090c45d7ed46"
+					(reference "J16")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/6d3dc230-968b-47c8-9d2b-2095e46317c4/f0191c65-5f7e-4168-9ce4-e2702e9a3d17"
+					(reference "J14")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/b2621ccc-6b95-497d-bab3-a4c64f740e19/21503396-ea3a-40dc-b481-090c45d7ed46"
+					(reference "J28")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/b2621ccc-6b95-497d-bab3-a4c64f740e19/f0191c65-5f7e-4168-9ce4-e2702e9a3d17"
+					(reference "J26")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/c7a4ad01-2380-4369-b5ec-1dc572d0c7af/21503396-ea3a-40dc-b481-090c45d7ed46"
+					(reference "J2")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/c7a4ad01-2380-4369-b5ec-1dc572d0c7af/f0191c65-5f7e-4168-9ce4-e2702e9a3d17"
+					(reference "J4")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/d453a0a0-37eb-42f0-aeec-dba26492a9a8/21503396-ea3a-40dc-b481-090c45d7ed46"
+					(reference "J24")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/d453a0a0-37eb-42f0-aeec-dba26492a9a8/f0191c65-5f7e-4168-9ce4-e2702e9a3d17"
+					(reference "J22")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/fd3a525b-3ede-48c3-a79c-a56f3ffe55c1/21503396-ea3a-40dc-b481-090c45d7ed46"
+					(reference "J12")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/fd3a525b-3ede-48c3-a79c-a56f3ffe55c1/f0191c65-5f7e-4168-9ce4-e2702e9a3d17"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 49.53 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "dd1b663e-fc13-4ae7-99c9-e9ee45dd4d74")
+		(property "Reference" "J1"
+			(at 50.165 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 50.165 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:th_pad"
+			(at 49.53 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 49.53 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 49.53 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a5e5c90-8136-4598-b6ad-8740856c6709")
+		)
+		(instances
+			(project "tiny"
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/5dbab606-abf4-4e82-9cc1-707c67a0633f/0bf87932-804d-4a7a-af3a-2cd2f54e571c"
+					(reference "J19")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/5dbab606-abf4-4e82-9cc1-707c67a0633f/d3ddc81b-fd68-494c-bdeb-05675ff458c9"
+					(reference "J17")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/5e688890-8302-4ccb-8387-63418fbf395b/21503396-ea3a-40dc-b481-090c45d7ed46"
+					(reference "J7")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/5e688890-8302-4ccb-8387-63418fbf395b/f0191c65-5f7e-4168-9ce4-e2702e9a3d17"
+					(reference "J5")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/6d3dc230-968b-47c8-9d2b-2095e46317c4/21503396-ea3a-40dc-b481-090c45d7ed46"
+					(reference "J15")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/6d3dc230-968b-47c8-9d2b-2095e46317c4/f0191c65-5f7e-4168-9ce4-e2702e9a3d17"
+					(reference "J13")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/b2621ccc-6b95-497d-bab3-a4c64f740e19/21503396-ea3a-40dc-b481-090c45d7ed46"
+					(reference "J27")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/b2621ccc-6b95-497d-bab3-a4c64f740e19/f0191c65-5f7e-4168-9ce4-e2702e9a3d17"
+					(reference "J25")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/c7a4ad01-2380-4369-b5ec-1dc572d0c7af/21503396-ea3a-40dc-b481-090c45d7ed46"
+					(reference "J1")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/c7a4ad01-2380-4369-b5ec-1dc572d0c7af/f0191c65-5f7e-4168-9ce4-e2702e9a3d17"
+					(reference "J3")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/d453a0a0-37eb-42f0-aeec-dba26492a9a8/21503396-ea3a-40dc-b481-090c45d7ed46"
+					(reference "J23")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/d453a0a0-37eb-42f0-aeec-dba26492a9a8/f0191c65-5f7e-4168-9ce4-e2702e9a3d17"
+					(reference "J21")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/fd3a525b-3ede-48c3-a79c-a56f3ffe55c1/21503396-ea3a-40dc-b481-090c45d7ed46"
+					(reference "J11")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/fd3a525b-3ede-48c3-a79c-a56f3ffe55c1/f0191c65-5f7e-4168-9ce4-e2702e9a3d17"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 133.35 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ebe924de-9b47-4ab9-85c2-10a41825d70a")
+		(property "Reference" "D3"
+			(at 147.32 57.0798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 147.32 59.6198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 134.62 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 135.89 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 133.35 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C55109522"
+			(at 133.35 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3c90f4c6-7ebf-4691-aff5-94da9803ad32")
+		)
+		(pin "1"
+			(uuid "c324f2d7-b167-4c59-9d26-01f57f8cf0bc")
+		)
+		(pin "3"
+			(uuid "0b8da710-4717-4e9f-bbb8-4c4fff3cbad8")
+		)
+		(pin "4"
+			(uuid "a5905b30-5871-4c26-b0d8-17db1ebfde82")
+		)
+		(instances
+			(project "tiny"
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/5dbab606-abf4-4e82-9cc1-707c67a0633f/0bf87932-804d-4a7a-af3a-2cd2f54e571c"
+					(reference "D30")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/5dbab606-abf4-4e82-9cc1-707c67a0633f/d3ddc81b-fd68-494c-bdeb-05675ff458c9"
+					(reference "D27")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/5e688890-8302-4ccb-8387-63418fbf395b/21503396-ea3a-40dc-b481-090c45d7ed46"
+					(reference "D12")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/5e688890-8302-4ccb-8387-63418fbf395b/f0191c65-5f7e-4168-9ce4-e2702e9a3d17"
+					(reference "D9")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/6d3dc230-968b-47c8-9d2b-2095e46317c4/21503396-ea3a-40dc-b481-090c45d7ed46"
+					(reference "D24")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/6d3dc230-968b-47c8-9d2b-2095e46317c4/f0191c65-5f7e-4168-9ce4-e2702e9a3d17"
+					(reference "D21")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/b2621ccc-6b95-497d-bab3-a4c64f740e19/21503396-ea3a-40dc-b481-090c45d7ed46"
+					(reference "D42")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/b2621ccc-6b95-497d-bab3-a4c64f740e19/f0191c65-5f7e-4168-9ce4-e2702e9a3d17"
+					(reference "D39")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/c7a4ad01-2380-4369-b5ec-1dc572d0c7af/21503396-ea3a-40dc-b481-090c45d7ed46"
+					(reference "D3")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/c7a4ad01-2380-4369-b5ec-1dc572d0c7af/f0191c65-5f7e-4168-9ce4-e2702e9a3d17"
+					(reference "D6")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/d453a0a0-37eb-42f0-aeec-dba26492a9a8/21503396-ea3a-40dc-b481-090c45d7ed46"
+					(reference "D36")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/d453a0a0-37eb-42f0-aeec-dba26492a9a8/f0191c65-5f7e-4168-9ce4-e2702e9a3d17"
+					(reference "D33")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/fd3a525b-3ede-48c3-a79c-a56f3ffe55c1/21503396-ea3a-40dc-b481-090c45d7ed46"
+					(reference "D18")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/fd3a525b-3ede-48c3-a79c-a56f3ffe55c1/f0191c65-5f7e-4168-9ce4-e2702e9a3d17"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 101.6 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb99544b-bb67-4b32-a4fd-4b91abcc337c")
+		(property "Reference" "D2"
+			(at 115.57 57.0798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 115.57 59.6198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 102.87 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 104.14 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 101.6 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C55109522"
+			(at 101.6 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c52ea092-5c5b-4b83-8a01-59042b8f5db6")
+		)
+		(pin "1"
+			(uuid "ee122026-8744-4151-b103-344531af3ebb")
+		)
+		(pin "3"
+			(uuid "0b00f547-7029-4f8b-8331-942e26a6ffad")
+		)
+		(pin "4"
+			(uuid "042a23fe-42ee-411a-ae1d-0ba0551ab2cc")
+		)
+		(instances
+			(project "tiny"
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/5dbab606-abf4-4e82-9cc1-707c67a0633f/0bf87932-804d-4a7a-af3a-2cd2f54e571c"
+					(reference "D29")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/5dbab606-abf4-4e82-9cc1-707c67a0633f/d3ddc81b-fd68-494c-bdeb-05675ff458c9"
+					(reference "D26")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/5e688890-8302-4ccb-8387-63418fbf395b/21503396-ea3a-40dc-b481-090c45d7ed46"
+					(reference "D11")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/5e688890-8302-4ccb-8387-63418fbf395b/f0191c65-5f7e-4168-9ce4-e2702e9a3d17"
+					(reference "D8")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/6d3dc230-968b-47c8-9d2b-2095e46317c4/21503396-ea3a-40dc-b481-090c45d7ed46"
+					(reference "D23")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/6d3dc230-968b-47c8-9d2b-2095e46317c4/f0191c65-5f7e-4168-9ce4-e2702e9a3d17"
+					(reference "D20")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/b2621ccc-6b95-497d-bab3-a4c64f740e19/21503396-ea3a-40dc-b481-090c45d7ed46"
+					(reference "D41")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/b2621ccc-6b95-497d-bab3-a4c64f740e19/f0191c65-5f7e-4168-9ce4-e2702e9a3d17"
+					(reference "D38")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/c7a4ad01-2380-4369-b5ec-1dc572d0c7af/21503396-ea3a-40dc-b481-090c45d7ed46"
+					(reference "D2")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/c7a4ad01-2380-4369-b5ec-1dc572d0c7af/f0191c65-5f7e-4168-9ce4-e2702e9a3d17"
+					(reference "D5")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/d453a0a0-37eb-42f0-aeec-dba26492a9a8/21503396-ea3a-40dc-b481-090c45d7ed46"
+					(reference "D35")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/d453a0a0-37eb-42f0-aeec-dba26492a9a8/f0191c65-5f7e-4168-9ce4-e2702e9a3d17"
+					(reference "D32")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/fd3a525b-3ede-48c3-a79c-a56f3ffe55c1/21503396-ea3a-40dc-b481-090c45d7ed46"
+					(reference "D17")
+					(unit 1)
+				)
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954/fd3a525b-3ede-48c3-a79c-a56f3ffe55c1/f0191c65-5f7e-4168-9ce4-e2702e9a3d17"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

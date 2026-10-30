@@ -1,0 +1,428 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "bb838ef8-0b7c-4352-85cd-3ac0ba1e8954")
+	(paper "A3")
+	(lib_symbols)
+	(sheet
+		(at 84.455 61.595)
+		(size 12.7 14.605)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5dbab606-abf4-4e82-9cc1-707c67a0633f")
+		(property "Sheetname" "top_segment"
+			(at 84.455 60.8834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "top_segment.kicad_sch"
+			(at 84.455 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "project"
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954"
+					(page "20")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 100.33 39.37)
+		(size 12.7 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5e688890-8302-4ccb-8387-63418fbf395b")
+		(property "Sheetname" "segment1"
+			(at 100.33 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "segment.kicad_sch"
+			(at 100.33 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V" input
+			(at 100.33 43.18 180)
+			(uuid "e836e68b-700c-4336-8543-8e0e396239cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 100.33 46.99 180)
+			(uuid "97150fbf-5cb9-4d10-92b2-2394b708b3d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "project"
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 130.81 39.37)
+		(size 12.7 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6d3dc230-968b-47c8-9d2b-2095e46317c4")
+		(property "Sheetname" "segment3"
+			(at 130.81 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "segment.kicad_sch"
+			(at 130.81 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V" input
+			(at 130.81 43.18 180)
+			(uuid "5794af7b-6508-4828-9577-39c3ddf85b4d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 130.81 46.99 180)
+			(uuid "4558d532-dbe3-498d-b8c5-19e419e85d42")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "project"
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 161.29 39.37)
+		(size 12.7 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b2621ccc-6b95-497d-bab3-a4c64f740e19")
+		(property "Sheetname" "segment5"
+			(at 161.29 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "segment.kicad_sch"
+			(at 161.29 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V" input
+			(at 161.29 43.18 180)
+			(uuid "2095a9a8-e169-48d0-a916-edf88c050b8c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 161.29 46.99 180)
+			(uuid "8b5de9d9-d36f-4e7a-bcbf-bf33d395e97d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "project"
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954"
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 85.09 39.37)
+		(size 12.7 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c7a4ad01-2380-4369-b5ec-1dc572d0c7af")
+		(property "Sheetname" "segment"
+			(at 85.09 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "segment.kicad_sch"
+			(at 85.09 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V" input
+			(at 85.09 43.18 180)
+			(uuid "60b9c90a-defd-4869-a08b-0977219c9bcf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 85.09 46.99 180)
+			(uuid "26e3242e-b4b9-4bea-84a6-1cf0a7ba639c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "project"
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 146.05 39.37)
+		(size 12.7 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d453a0a0-37eb-42f0-aeec-dba26492a9a8")
+		(property "Sheetname" "segment4"
+			(at 146.05 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "segment.kicad_sch"
+			(at 146.05 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V" input
+			(at 146.05 43.18 180)
+			(uuid "a962e43b-ce47-4a69-b21a-5c0bd01ac2be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 146.05 46.99 180)
+			(uuid "f24ffbef-1397-41af-907c-b046fded7da9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "project"
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 115.57 39.37)
+		(size 12.7 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fd3a525b-3ede-48c3-a79c-a56f3ffe55c1")
+		(property "Sheetname" "segment2"
+			(at 115.57 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "segment.kicad_sch"
+			(at 115.57 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V" input
+			(at 115.57 43.18 180)
+			(uuid "038c640b-a61e-4185-92b0-6de1374c55f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 115.57 46.99 180)
+			(uuid "125b292f-00ba-4959-9e05-246f474b36af")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "project"
+				(path "/bb838ef8-0b7c-4352-85cd-3ac0ba1e8954"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
